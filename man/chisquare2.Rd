@@ -2,7 +2,7 @@
 % Please edit documentation in R/chisquare2.R
 \name{chisquare2}
 \alias{chisquare2}
-\title{Chi Square statistics - Two Wqy Table}
+\title{Chi Square statistics - Two Way Table}
 \usage{
 chisquare2(m, x2 = 0)
 }

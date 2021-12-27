@@ -1,11 +1,11 @@
-#' Chi Square statistics - Two Wqy Table
+#' Chi Square statistics - Two Way Table
 #'
-#' Returns a list with the the chi-square test statistic, right-sided 
+#' Returns a list with the the chi-square test statistic, right-sided
 #' p-value and degrees of freedom for a given matrix.
-#' 
+#'
 #' Input is a matrix of values.
-#' 
-
+#'
+#'@export
 chisquare2 <- function(m,x2=0){
   if(is.matrix(m)){
     for (i in 1:nrow(m)){
@@ -15,7 +15,7 @@ chisquare2 <- function(m,x2=0){
       }
     }
     df <- (nrow(m)-1) * (ncol(m)-1)
-    pval <- pchisq(x2,df,lower.tail=FALSE) 
+    pval <- pchisq(x2,df,lower.tail=FALSE)
     return(list(pval=pval,x2=x2,df=df))
   }
   else{
