@@ -2,7 +2,7 @@
 % Please edit documentation in R/chisquare1.R
 \name{chisquare1}
 \alias{chisquare1}
-\title{Chi Square statistics - One Way Table}
+\title{Chi Square statistics - One Wqy Table}
 \usage{
 chisquare1(obs, exp, x2 = 0)
 }

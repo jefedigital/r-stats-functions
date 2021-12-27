@@ -5,7 +5,7 @@
 #'
 #' Input is a matrix of values.
 #'
-
+#' @export
 chisquare2 <- function(m,x2=0){
   if(is.matrix(m)){
     for (i in 1:nrow(m)){
